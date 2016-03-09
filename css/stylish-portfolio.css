@@ -92,12 +92,12 @@ hr.small {
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 40px;
+    line-height: 80px;  /*increse menu bar line height*/
 }
 
 .sidebar-nav li a {
     display: block;
-    text-decoration: none;
+    font-size: 20px;
     color: #999;
 }
 
@@ -120,6 +120,7 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand a {
     color: #999;
+    font-size: 18px;    /* make sidebar-brand text smaller */
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -130,8 +131,8 @@ hr.small {
 #menu-toggle {
     z-index: 1;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
 }
 
 #sidebar-wrapper.active {
